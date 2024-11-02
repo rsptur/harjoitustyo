@@ -1,0 +1,12 @@
+
+    Mitä olen tehnyt tällä viikolla?
+    Aihe (RSA salaus), käytettävä ohjelmointikieli (python) päätetty.
+    Tutustuin aihe-ehdotuksiin ja RSA salaukseen. Tarkastelin myös MNIST tunnistusalgoritmi vaihtoehtoa
+    Miten ohjelma on edistynyt?
+    Hyvin
+    Mitä opin tällä viikolla / tänään?
+    Githubin kertausta, RSA salauksesta 
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Jäi epäselväksi olisiko MNIST tunnistamiseen voinut käyttää valmista kmeansia. 
+    Mitä teen seuraavaksi?
+    Aloitan projektin ydinalueen kehitykseen 
