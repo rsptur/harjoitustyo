@@ -1,0 +1,11 @@
+
+    Mitä olen tehnyt tällä viikolla?
+    Opiskellut sitä miten salausavaimia generoidaan ja miten RSA implementoidaan.
+    Miten ohjelma on edistynyt?
+    Hyvin
+    Mitä opin tällä viikolla / tänään?
+    Salausavainten generoimista ja RSA:N käytännön implementoimista 
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Ei ole ollut helppoa
+    Mitä teen seuraavaksi?
+    Testauksen kehittämistä ja RSA salauksen loppuunvieminen
