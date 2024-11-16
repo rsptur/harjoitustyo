@@ -1,0 +1,10 @@
+    Mitä olen tehnyt tällä viikolla?
+    Suunniteltu käyttöliittymä ja testausta
+    Miten ohjelma on edistynyt?
+    Käyttöliittymän toimivuus ja testaus kesken 
+    Mitä opin tällä viikolla / tänään?
+    Opin siitä miten testausta tulisi suorittaa
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Testaamisen suunnittelu ja toteuttaminen vaatii aikaa. 
+    Mitä teen seuraavaksi?
+    Aloitan testien suorittamisen
