@@ -1,7 +1,6 @@
 import random
 import math
 
-def pienetprimet(num):
     lst=[]
     prime = [True for i in range(num+1)]
     p = 2
@@ -14,7 +13,6 @@ def pienetprimet(num):
         if prime[p]:
             lst.append(p)
     return lst
-nrolst=pienetprimet(500)
 
 def bit(n):
     return random.randrange(2**(n-1)+1, 2**n - 1)
