@@ -1,10 +1,12 @@
 from keys import Keys
+
 class Decryption: 
     """
     luokka purkaa salauksen
     """
     def decrypt(encrypted):
-        private,n=Keys().publickey()
+        public,n,t=Keys.publickey()
+        private=Keys.privatekey(public,t)
         dletter=(encrypted**private)%n
         return dletter
 

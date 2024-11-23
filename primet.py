@@ -16,16 +16,16 @@ class Primet():
             p += 1
         for p in range(2, 500+1):
             if prime[p]:
-                lst.append(p)        
+                lst.append(p)
         while True:
-            p = random.randrange(2**(n-1)+1, 2**n - 1)
+            l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:
-                if p % jakaja == 0 and jakaja**2 <= p:
+                if l % 2 != 0 and l % jakaja == 0 and jakaja**2 <= l:
                     break
             else:
-                return p       
+                return l
 
-    def millerRabintesti(m):
+    def MillerRabintesti(m):
         kaksijakaja = 0
         e = m-1
         while e % 2 == 0:

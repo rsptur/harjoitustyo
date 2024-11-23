@@ -1,10 +1,11 @@
 from keys import Keys
+
 class Encryption:
     """
     luokka salaa viestin
     """
     def encrypt(message):
-        public,n=Keys().publickey()
+        public,n,t=Keys.publickey()
         eletter=(message**public)%n
         return eletter
 
