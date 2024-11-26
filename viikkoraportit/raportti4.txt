@@ -1,0 +1,10 @@
+    Mitä olen tehnyt tällä viikolla?
+    Tein yksikkötestausta ja korjailin virheitä
+    Miten ohjelma on edistynyt?
+    Testauskoodaaminen kesken 
+    Mitä opin tällä viikolla / tänään?
+    Testauksesta käytännössä
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Oli liian kiire viikko. Ei ollut tarpeeksi aikaa. 
+    Mitä teen seuraavaksi?
+    Testauskoodit githubiin 
