@@ -1,22 +1,13 @@
 import random
 import math
+from primetlista import Primetlista
 
 class Primet(): 
     """
     luokka testaa alkuluvut
     """
-    def pienetprimet(n):
-        lst=[]
-        prime = [True for i in range(500+1)]
-        p = 2
-        while (p * p <= 500):
-            if (prime[p] == True):
-                for i in range(p * p, 500+1, p):
-                    prime[i] = False
-            p += 1
-        for p in range(2, 500+1):
-            if prime[p]:
-                lst.append(p)
+    def pienetprimet(n):            
+        lst=Primetlista.primetlista()
         while True:
             l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:
