@@ -1,0 +1,10 @@
+    Mitä olen tehnyt tällä viikolla?
+    Tein muutoksia vertaispalautteen perusteella, otin Poetryn käyttöön ja lisäsin testit
+    Miten ohjelma on edistynyt?
+    Hyvin. Vertaisarviosta oli hyötyä. 
+    Mitä opin tällä viikolla / tänään?
+    Poetryn käyttöä ja unittest käyttöä
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Poetryn käyttöön ottaminen tuotti ongelmia
+    Mitä teen seuraavaksi?
+    Koodin testauksen kattavuudesta
