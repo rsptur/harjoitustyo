@@ -7,7 +7,7 @@ class Primet():
     luokka testaa alkuluvut
     """
     def pienetprimet(n):            
-        lst=Primetlista.primetlista()
+        lst=Primetlista.lista()
         while True:
             l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:

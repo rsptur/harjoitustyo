@@ -6,8 +6,12 @@ Projekti: Ohjelma joka salaa ja purkaa tekstiä. Ohjelma tulee salaamisen ja sal
 
 Käyttäjä voi antaa salattavaksi sen pituisen tekstin kuin avaimen pituus sallii. Ohjelma sisältää isojen alkulukujen etsimiseen ja avaimen muodostamiseen tarvittavat metodit, kuten Miller-Rabin algoritmin. 
 
-Käynnistät sovelluksen: 
+Käynnistät ohjelman: 
 
-poetry run python app.py
+python3 app.py
+
+Aja testit: 
+
+python3 tests.py
 
 

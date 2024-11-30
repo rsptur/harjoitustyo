@@ -4,13 +4,12 @@ class Encryption:
     """
     luokka salaa viestin
     """
-    def encrypt(message):
-        public,n,t=Keys.publickey()
-        eletter=(message**public)%n
+    def encrypt(m, p, nn):
+        eletter=(m**p)%nn
         return eletter
 
-    def encoder(message):
+    def encoder(message,jkey,tul):
         encoded = []
         for letter in message:
-            encoded.append(Encryption.encrypt(ord(letter)))
+            encoded.append(Encryption.encrypt(ord(letter), jkey, tul))
         return encoded
