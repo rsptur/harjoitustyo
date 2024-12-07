@@ -1,0 +1,10 @@
+    Mitä olen tehnyt tällä viikolla?
+    Otin käyttöön testit koodin testikattavuuden arvioimiseksi 
+    Miten ohjelma on edistynyt?
+    Hyvin. 
+    Mitä opin tällä viikolla / tänään?
+    Testikattavuuden mittaamisesta
+    Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+    Ei mikään
+    Mitä teen seuraavaksi?
+    Toivon että vertauspalautteessa tulee esiin asioita joita vielä tulisi korjata
