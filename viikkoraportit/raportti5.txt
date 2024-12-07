@@ -5,6 +5,6 @@
     Mitä opin tällä viikolla / tänään?
     Poetryn käyttöä ja unittest käyttöä
     Mikä jäi epäselväksi tai tuottanut vaikeuksia?
-    Poetryn käyttöön ottaminen tuotti ongelmia
+    Poetryn käyttöönottaminen oli ensin hankalaa
     Mitä teen seuraavaksi?
     Koodin testauksen kattavuudesta

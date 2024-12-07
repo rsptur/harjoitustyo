@@ -1,1 +1,5 @@
 __pycache__
+__html__
+.coverage
+.coveragerc
+.DS_Store

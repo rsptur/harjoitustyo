@@ -8,10 +8,20 @@ Käyttäjä voi antaa salattavaksi sen pituisen tekstin kuin avaimen pituus sall
 
 Käynnistät ohjelman: 
 
-python3 app.py
+Ensin asenna riippuvuudet
 
-Aja testit: 
+```
+poetry install
+```
 
-python3 tests.py
+Mene src valikkoon (cd src) ja käynnistä salausohjelma
 
+```
+poetry run python3 app.py
+```
 
+Suorita testit 
+
+```
+poetry run pytest
+```
