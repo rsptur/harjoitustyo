@@ -1,9 +1,9 @@
-class Primetlista(): 
+class Primetlista():
     """
     luokka generoi pienten alkulukujen listan
     """
     def lista():
-        lst=[]
+        lst = []
         prime = [True for i in range(500+1)]
         p = 2
         while (p * p <= 500):

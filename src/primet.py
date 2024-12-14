@@ -1,13 +1,13 @@
 import random
-import math
 from primetlista import Primetlista
 
-class Primet(): 
+
+class Primet():
     """
     luokka testaa alkuluvut
     """
-    def pienetprimet(n):            
-        lst=Primetlista.lista()
+    def pienetprimet(n):
+        lst = Primetlista.lista()
         while True:
             l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:
@@ -22,7 +22,8 @@ class Primet():
         while e % 2 == 0:
             e >>= 1
             kaksijakaja += 1
-        assert(2**kaksijakaja * e == m-1)
+        assert (2**kaksijakaja * e == m-1)
+
         def iterointi(testit):
             if pow(testit, e, m) == 1:
                 return False
