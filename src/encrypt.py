@@ -6,7 +6,8 @@ class Encryption:
     luokka salaa viestin
     """
     def encrypt(m, p, nn):
-        eletter = (m**p) % nn
+        #eletter = (letter**publickey) % (primes p*q)        
+        eletter = pow(m,p,nn)
         return eletter
 
     def encoder(message, jkey, tul):

@@ -9,31 +9,40 @@ class Primet():
     def pienetprimet(n):
         lst = Primetlista.lista()
         while True:
+            #muodostetaan tarpeeksi suuri luku
             l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:
-                if l % 2 != 0 and l % jakaja == 0 and jakaja**2 <= l:
+                #testataan onko luku jaollinen pienillä primeillä
+                if l % jakaja == 0 and jakaja**2 <= l:
                     break
             else:
                 return l
 
     def MillerRabintesti(m):
-        kaksijakaja = 0
+        #jos iteroinnin jälkeen palauttaa False ei ole alkuluku
+        #jos palauttaa True on alkuluku
+        # 1. löydä m-1=(2**k)*e
+        k = 0
         e = m-1
+        # toista niin pitkään että ei jaollinen 2:lla
         while e % 2 == 0:
+            #e/(2**1)
             e >>= 1
-            kaksijakaja += 1
-        assert (2**kaksijakaja * e == m-1)
+            k += 1
 
-        def iterointi(testit):
-            if pow(testit, e, m) == 1:
+        def iterointi(t):
+            #arvottiin luku t, 2 ja m:n välillä
+            #testataan tuleeko t:n ja e:n tulon ja m jakojäännöksestä 1
+            if pow(t, e, m) == 1:
                 return False
-            for i in range(kaksijakaja):
-                if pow(testit, 2**i * e, m) == m-1:
+            for i in range(k):
+                if pow(t, 2**i * e, m) == m-1:
                     return False
             return True
-        testiluku = 20
-        for i in range(testiluku):
-            testit = random.randrange(2, m)
-            if iterointi(testit):
+        
+        luku = 20
+        for i in range(luku):
+            t = random.randrange(2, m)
+            if iterointi(t):
                 return False
         return True
