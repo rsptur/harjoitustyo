@@ -10,6 +10,7 @@ class PQgeneraattori:
     def generaattori():
         while True:
             bits = 1024
+            #bits = 2048
             luku1 = Primet.pienetprimet(bits)
             if not Primet.MillerRabintesti(luku1):
                 continue
@@ -17,6 +18,7 @@ class PQgeneraattori:
                 p = luku1
                 break
         while True:
+            #bits = 2048
             bits = 1024
             luku2 = Primet.pienetprimet(bits)
             if not Primet.MillerRabintesti(luku2):

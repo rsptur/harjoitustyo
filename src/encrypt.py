@@ -11,7 +11,7 @@ class Encryption:
         return eletter
 
     def encoder(message, jkey, tul):
-        encoded = []
-        for letter in message:
-            encoded.append(Encryption.encrypt(ord(letter), jkey, tul))
+        m=message.encode()
+        m=int.from_bytes(m,"big")
+        encoded=Encryption.encrypt(m,jkey,tul)
         return encoded

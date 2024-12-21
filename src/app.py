@@ -12,8 +12,8 @@ if __name__ == '__main__':
     yavain=None
     while jatka == True:
         print("Valitse alla olevista vaihtoehtoista")
-        print("Jos sinulla ei ole salausavaimia, aloita valitsemalla 1")
-        print("Sinun on salattava viesti ennen sen purkamista")
+        #print("Jos sinulla ei ole salausavaimia, aloita valitsemalla 1")
+        #print("Sinun on salattava viesti ennen sen purkamista")
         print("1. Tee avaimet")
         print("2. Salaa viesti")
         print("3. Pura viesti")
@@ -57,15 +57,21 @@ if __name__ == '__main__':
                 tulo=v_tulo()
                 print("Viestiä salataan...")
                 tulos1 = Encryption.encoder(message1, javain, tulo)
-                print(tulos1)
+                print("Salattu viesti: ",tulos1)
 
 
             elif valinta == 3:
-                print(javain)
-                if javain==None: 
-                    print("Sinun täytyy ensin salata viesti") 
-                else: 
-                    message2 = tulos1
+                #if javain==None: 
+                    #print("Sinun täytyy ensin salata viesti") 
+                #else: 
+                    def v_message(): 
+                        while True: 
+                            try: 
+                                message = int(input("Anna purettava viesti: "))
+                                return message
+                            except ValueError: 
+                                print("Et syöttänyt käypää viestiä")
+                    #message2 = tulos1
                     def v_yavain(): 
                         while True: 
                             try: 
@@ -74,8 +80,10 @@ if __name__ == '__main__':
                             except ValueError: 
                                 print("Et syöttänyt numeroa")
                     yavain=v_yavain()
+                    message2=v_message()
                     print("Viestiä puretaan... ")
                     tulos2 = Decryption.decoder(message2, yavain, tulo)
-                    print(tulos2)
+                    print("Purettu viesti: ",tulos2)
+            
             elif valinta == 4:
                 jatka = False
