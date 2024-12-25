@@ -13,7 +13,7 @@ Testidecrypt testaa salauksen toimivuutta annetuilla yksityisella ja julkisella 
 
 Testikattavuus: 
 
-![coverage](https://raw.githubusercontent.com/rsptur/harjoitustyo/blob/main/raportit/test_coverage.png)
+![coverage](https://github.com/rsptur/harjoitustyo/blob/main/images/test_coverage.png)
 
 Järjestelmätestaus: 
 
