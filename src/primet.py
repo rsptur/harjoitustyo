@@ -9,10 +9,10 @@ class Primet():
     def pienetprimet(n):
         lst = Primetlista.lista()
         while True:
-            #muodostetaan tarpeeksi suuri luku
+            # muodostetaan tarpeeksi suuri luku
             l = random.randrange(2**(n-1)+1, 2**n - 1)
             for jakaja in lst:
-                #testataan onko luku jaollinen pienillä primeillä
+                # testataan onko luku jaollinen pienillä primeillä
                 if l % jakaja == 0 and jakaja**2 <= l:
                     break
             else:
@@ -32,7 +32,7 @@ class Primet():
                 if pow(t, 2**i * e, m) == m-1:
                     return False
             return True
-        
+
         luku = 20
         for i in range(luku):
             t = random.randrange(2, m)

@@ -1,6 +1,7 @@
 __pycache__
 __html__
 .coverage
+__htmlcov
 .pytest_cache
 .coveragerc
 .DS_Store

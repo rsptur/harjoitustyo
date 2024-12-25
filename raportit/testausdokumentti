@@ -11,3 +11,10 @@ Testikeys testaa että keys.py:ssä generoitava julkinen avain on prime ja testa
 Testiencrypt testaa salauksen toimivuutta annetuilla yksityisella ja julkisella avaimella sekä alkulukujen tulolla. 
 Testidecrypt testaa salauksen toimivuutta annetuilla yksityisella ja julkisella avaimella sekä alkulukujen tulolla. 
 
+Testikattavuus: 
+
+
+
+Järjestelmätestaus: 
+
+Sovellusta on testattu manuaalisesti. 

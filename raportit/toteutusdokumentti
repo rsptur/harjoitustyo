@@ -1,12 +1,27 @@
 
-Ohjelman yleisrakenne: App.py käyttöliittymä, encrypt.py salaa viestin, decrypt.py purkaa sen, generator.py generoi alkuluvut p & q:n jonka perusteella voidaan laskea keys.py:ssä julkinen ja yksityinen avain, primet.py testaa alkulukuja ja primetlista.py generoi pienet alkuluvut. 
+Ohjelman yleisrakenne: 
 
-Saavutetut aika- ja tilavaativuudet (esim. O-analyysit pseudokoodista): RSA vaativuus 0(n**3), Euclids algoritmi 0(h) ja Miller-Rabin 0(k log3 n)
+-app.py käyttöliittymä
+-encrypt.py salaa viestin
+-decrypt.py purkaa viestin
+-generator.py generoi alkuluvut p & q:n 
+-keys.py:ssä p &q:n avulla lasketaan julkinen ja yksityinen avain
+-primet.py testaa alkulukuja
+-primetlista.py generoi pienet alkuluvut
 
-Työn mahdolliset puutteet ja parannusehdotukset: TBC
+Saavutetut aika- ja tilavaativuudet: 
+
+RSA vaativuus 0(n**3)
+Euclids algoritmi 0(h) 
+Sieve of Erastothenes 0(n log log n)
+Miller-Rabin 0(k log3 n)
+
+Työn mahdolliset puutteet ja parannusehdotukset: encypt.py:n tulisi lisätä padding viestiin
 
 Laajojen kielimallien käyttö: 
 Ei ole käyttetty
 
-
+Lähteet:
+https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+https://www.teach.cs.toronto.edu/~csc110y/fall/notes/08-cryptography/
 
