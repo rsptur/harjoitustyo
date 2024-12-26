@@ -16,9 +16,7 @@ Testiencrypt testaa salauksen toimivuutta annetuilla yksityisella ja julkisella 
 
 Testidecrypt testaa salauksen toimivuutta annetuilla yksityisella ja julkisella avaimella sekä alkulukujen tulolla. 
 
-Testikattavuus: 
-
-![coverage](https://github.com/rsptur/harjoitustyo/tree/main/raportit/images/test_coverage.png)
+![Testikattavuus: ](https://github.com/rsptur/harjoitustyo/tree/main/raportit/images/test_coverage.png)
 
 Järjestelmätestaus: 
 
